@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Java-EE_Layred:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Java_EE_Layred_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Java-EE_Layred/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Java-EE_Layred" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="commons-dbcp2-2.10.0" />
+          <element id="library" level="project" name="mysql-connector-j-8.1.0" />
+          <element id="library" level="project" name="javax.json-1.1.4" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
